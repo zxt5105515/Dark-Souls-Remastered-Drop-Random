@@ -13,11 +13,11 @@
 3. 别关exe，再点击"Generate Cheatsheet"导出一个`cheatsheet.txt`文件，这个文件是作弊列表，里面有所有物品的掉落位置，在你实在找不到某个钥匙/物品的掉落时可以做个弊看看，硬核玩家可以不导出(注意这个exe程序本身有小概率出bug然后导致你卡关，所以...)
 4. 下载DeS-BNDBuild-2016-10-17-23.exe，复制`【游戏安装目录】\param\GameParam\GameParam.parambnd.dcx` 到这个exe同目录下，打开exe，将刚刚复制的`GameParam.parambnd.dcx`拖入exe上面的输入框，点击"Extract"，会在本目录生成若干文件，将生成的`GameParam.parambnd`拖入exe上面的输入框,再次点击"Extract"，会在本目录生成名为`GameParam.parambnd.extract`的文件夹，将1步骤生成的`ItemLotParam.param`复制到 `GameParam.parambnd.extract\FRPG\data\INTERROOT_x64\param\GameParam`下，覆盖老的文件
 5. 点击"Rebuild"生成新的`GameParam.parambnd`，再次将`GameParam.parambnd.dcx`拖入exe上面的输入框，点击"Rebuild"生成新的`GameParam.parambnd.dcx`，将这个文件复制回`【游戏安装目录】\param\GameParam`，覆盖老的文件
-6.打开游戏开始受苦之路吧 :)
+6. 打开游戏开始受苦之路吧 :)
 
 ## 还原
 在**安装随机mod** 4步骤中会生成一个`GameParam.parambnd.dcx.bak`的文件，将它改名为`GameParam.parambnd.dcx` ,然后复制回`【游戏安装目录】\param\GameParam`，覆盖老的文件
 
 ## reference
-[DarkSoulsItemRandomizer](https://github.com/HotPocketRemix/DarkSoulsItemRandomizer)  
-[DeS-BNDBuild](https://github.com/Wulf2k/DeS-BNDBuild)
+* [DarkSoulsItemRandomizer](https://github.com/HotPocketRemix/DarkSoulsItemRandomizer)  
+* [DeS-BNDBuild](https://github.com/Wulf2k/DeS-BNDBuild)
